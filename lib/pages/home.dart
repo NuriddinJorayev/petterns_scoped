@@ -24,7 +24,7 @@ class _HomeState extends State<Home> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text("Provider"),
+        title: Text("Scoped"),
       ),
       body: ScopedModel<Home_view_models>(
         model: base_model,
